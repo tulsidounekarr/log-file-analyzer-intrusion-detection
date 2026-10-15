@@ -1,0 +1,19 @@
+timestamp,ip,username,event,source_type
+2026-10-15 08:00:00,192.0.2.10,alice,login_success,auth
+2026-10-15 08:03:00,192.0.2.11,bob,login_success,auth
+2026-10-15 08:10:00,198.51.100.20,admin,login_failed,auth
+2026-10-15 08:10:15,198.51.100.20,root,login_failed,auth
+2026-10-15 08:10:30,198.51.100.20,test,login_failed,auth
+2026-10-15 08:10:45,198.51.100.20,guest,login_failed,auth
+2026-10-15 08:11:00,198.51.100.20,alice,login_failed,auth
+2026-10-15 08:12:00,198.51.100.20,service,login_failed,auth
+2026-10-15 08:14:00,203.0.113.8,admin,login_failed,auth
+2026-10-15 08:14:10,203.0.113.8,administrator,login_failed,auth
+2026-10-15 08:14:20,203.0.113.8,support,login_failed,auth
+2026-10-15 09:00:00,192.0.2.10,alice,login_success,auth
+2026-10-15 09:10:00,198.51.100.44,-,GET /.env HTTP/1.1 404,apache
+2026-10-15 09:10:10,198.51.100.44,-,GET /wp-admin HTTP/1.1 404,apache
+2026-10-15 09:10:20,198.51.100.44,-,GET /phpmyadmin HTTP/1.1 404,apache
+2026-10-15 10:00:00,203.0.113.25,carol,login_success,auth
+2026-10-15 10:15:00,203.0.113.25,carol,login_failed,auth
+2026-10-15 10:16:00,203.0.113.25,carol,login_failed,auth

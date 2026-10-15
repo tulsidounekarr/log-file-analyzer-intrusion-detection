@@ -1,0 +1,15 @@
+LOG FILE ANALYZER - QUICK START (Windows)
+
+1. Extract this ZIP and open the log-file-analyzer folder in VS Code.
+2. Open Terminal > New Terminal.
+3. Run these commands one at a time:
+
+   python -m venv .venv
+   .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+   .\.venv\Scripts\python.exe -m streamlit run app.py
+
+4. Open the local URL shown in the terminal (normally http://localhost:8501).
+5. Leave the terminal running while you use the dashboard.
+
+The app starts with synthetic sample data. You can upload supported logs too.
+Only analyze logs you are authorized to access.
